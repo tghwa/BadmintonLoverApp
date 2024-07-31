@@ -11,8 +11,8 @@ const connection = mysql.createConnection({
     // password: '',
     // database: 'courtbookingapp'
     host: 'sql.freedb.tech',
-    user: 'freedb_gaikhwa',
-    password: 'xY&JJT?Sf26jMhv',
+    user: 'freedb_c237_gaikhwa',
+    password: 'qwzc$?ERAhdH3H*',
     database: 'freedb_BadmintonLoverDB'
 });
 
