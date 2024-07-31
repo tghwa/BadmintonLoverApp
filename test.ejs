@@ -1,0 +1,12 @@
+<% for(let i=0; i < students.length; i++) { %>
+    <% if SearchDate == booking_date and court_available == 'yes' { %>
+      <div class="card" style="width:400px">
+        <img class="card-img-top" src= "<%= court.image[i] %>" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title"><%= court.name[i] %></h4>
+          <p class="card-text"><%= court.location[i] %></p>
+          <a href="/court/<%= court[i].court_id %>" class="btn btn-primary">See Details</a>
+        </div>
+      </div>
+    <% } %>
+  <% } %>

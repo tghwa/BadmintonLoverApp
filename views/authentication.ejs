@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Court Booking App</title>
+  <style>
+    .center-images {
+      display: flex;
+      justify-content: center;
+      gap: 20px; /* Adds space between images */
+    }
+    .image-container {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <%- include ('partials/navbar_user.ejs') %>
+
+    <div class="container mt-5">
+        <h2 class="text-center">Badminton's Lover</h2>
+        <br>
+        <br>
+        <div class="center-images">
+            <div class="image-container">
+                <img src="https://tse4.explicit.bing.net/th?id=OIP.VvtNGTYO8jgPOvorPm6FIQHaHu&pid=Api&P=0&h=180.jpg" style="width: 150px; height: 150px;">
+                <br>
+                <br>
+                <a href="/register" class="btn btn-primary mt-2">Register</a>
+            </div>
+            <br>
+            <div class="image-container">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.0zThj8ORiPldD5fpN1f85gHaHa&pid=Api&P=0&h=180.jpg" style="width: 150px; height: 150px;">
+                <br>
+                <br>
+                <a href="/login" class="btn btn-primary mt-2">Log In</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
