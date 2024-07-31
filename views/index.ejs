@@ -17,17 +17,6 @@
         <div class="text-center"><h2>Court Available</h2></div>
         <br>
         
-        <form method="GET" action="/">
-            <div class="mb-3 row">
-                <label for="SearchDate" class="col-sm-2 col-form-label">Search by Date:</label>
-                <div class="col-sm-2">
-                    <input type="date" class="form-control" id="SearchDate" name="SearchDate" required>
-                </div>
-                <div class="col-sm-2">
-                    <button type="submit" class="btn btn-primary">Search</button>
-                </div>
-            </div>
-        </form>
 
         <% if (slots && slots.length > 0) { %>
             <div class="row">
@@ -48,7 +37,7 @@
             </div>
         <% } else { %>
             <div class="alert alert-info" role="alert">
-                No slots available for the selected date.
+                No slots available.
             </div>
         <% } %>
     </div>
