@@ -10,10 +10,10 @@ const connection = mysql.createConnection({
     // user: 'root',
     // password: '',
     // database: 'courtbookingapp'
-    host: 'sql.freedb.tech',
-    user: 'freedb_c237_gaikhwa',
-    password: 'qwzc$?ERAhdH3H*',
-    database: 'freedb_BadmintonLoverDB'
+    host: 'db4free.net',
+    user: 'c237_gaikhwa',
+    password: 'Woodlands123',
+    database: 'badmintonloverdb'
 });
 
 connection.connect((err) => {
