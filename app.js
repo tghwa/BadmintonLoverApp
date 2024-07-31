@@ -6,10 +6,14 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'courtbookingapp'
+    // host: 'localhost',
+    // user: 'root',
+    // password: '',
+    // database: 'courtbookingapp'
+    host: 'sql.freedb.tech',
+    user: 'freedb_gaikhwa',
+    password: 'xY&JJT?Sf26jMhv',
+    database: 'freedb_BadmintonLoverDB'
 });
 
 connection.connect((err) => {
